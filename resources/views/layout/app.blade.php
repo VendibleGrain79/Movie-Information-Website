@@ -147,20 +147,7 @@
                     <a href="{{ route('actor.index') }}" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Actors</a>
                 </div>
 
-                <!-- Mobile Search -->
-                <div class="px-2 pt-2 pb-3 border-t border-gray-700">
-                    <form action="{{ route('movie.search') }}" method="GET" class="flex">
-                        <input type="text" 
-                               name="query" 
-                               placeholder="Search movies..." 
-                               value="{{ request('query') }}"
-                               class="flex-1 px-3 py-2 bg-gray-700 border border-gray-600 rounded-l-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500">
-                        <button type="submit" class="px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded-r-lg">
-                            <i class="fas fa-search"></i>
-                        </button>
-                    </form>
-                </div>
-            </div>
+             
         </nav>
 
         @yield('content')
