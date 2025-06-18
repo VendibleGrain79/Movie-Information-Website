@@ -144,7 +144,6 @@
                         </div>
                     </div>
                     
-                    <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">TV Shows</a>
                     <a href="{{ route('actor.index') }}" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Actors</a>
                 </div>
 
